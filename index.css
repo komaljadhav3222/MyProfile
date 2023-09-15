@@ -1,0 +1,25 @@
+body
+{
+padding: 20px 20px 10px 10px;
+margin:  20px 20px 10px 10px;
+}
+nav
+{
+    background-color:blanchedalmond;
+}
+.contact
+{
+    margin-right: 50px;
+}
+.header-icons
+{
+    margin-right: 15px;
+}
+nav a
+{
+    margin-right: 50px;  
+}
+footer a{
+    margin-right: 20px;
+    margin-left: 10px;  
+}
