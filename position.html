@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #div1{
+            width: 130px;
+            height: 160px;
+            background-color:cadetblue ;
+            border: 2px solid red;
+            display: inline-block;
+             /* static positioning - default*/
+             position: static;
+             left: 50px;
+             top: 50px;
+
+        }
+        #div2{
+            width: 130px;
+            height: 160px;
+            background-color:grey ;
+            border: 2px solid red;
+            display: inline-block;
+            /* relative positioning */
+            position: relative;
+            top: 30px;
+            left: 30px;
+        }
+        #div3{
+            width: 130px;
+            height: 160px;
+            background-color:rgb(146, 153, 69) ;
+            border: 2px solid red;
+            display: inline-block;
+             /* fixed positioning */
+             position: fixed;
+             right: 20px;
+             bottom: 20px;
+        }
+        #div4{
+            width: 130px;
+            height: 160px;
+            background-color:rgb(123, 175, 59) ;
+            border: 2px solid red;
+            display: inline-block;
+            /* absolute positioning */
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">div1</div>
+    <div  id="div2">div2</div>
+    <div  id="div3">div3</div>
+    <div  id="div4">div4</div>
+</body>
+</html>
